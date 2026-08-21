@@ -1,0 +1,14 @@
+{
+  "horizon_weeks": 6,
+  "n_folds_run": 10,
+  "n_backtest_predictions": 11910,
+  "pooled_model_WAPE": 0.29,
+  "pooled_baseline_WAPE": 0.379,
+  "pooled_model_MAPE": 0.3883,
+  "pooled_baseline_MAPE": 0.5883,
+  "pooled_model_bias": -1.296,
+  "pooled_baseline_bias": 0.926,
+  "model_beats_baseline": true,
+  "wape_improvement_pct": 23.5,
+  "shipped_model": "lightgbm_tweedie"
+}

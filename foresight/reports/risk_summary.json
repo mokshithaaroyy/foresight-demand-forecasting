@@ -1,0 +1,13 @@
+{
+  "n_skus": 200,
+  "quadrant_counts": {
+    "Healthy": 151,
+    "Markdown / clear": 44,
+    "Reorder now": 5
+  },
+  "total_sales_at_risk": 11350409.5,
+  "total_excess_capital_at_risk": 25280431.04,
+  "total_on_hand_value": 54962882.38,
+  "flagged_reorder_now_sales_at_risk": 311919.57,
+  "n_low_confidence_forecast": 2
+}

@@ -1,0 +1,32 @@
+# Project FORESIGHT — pinned to the versions this was built and tested against.
+# Install with:  pip3 install -r requirements.txt  (add --break-system-packages on
+# externally-managed Python installs, e.g. Debian/Ubuntu system Python)
+
+pandas==3.0.2
+numpy==2.4.4
+scikit-learn==1.8.0
+lightgbm==4.7.0
+scipy==1.17.1
+joblib==1.5.3
+pyarrow==25.0.1
+
+streamlit==1.62.0
+plotly==6.9.0
+matplotlib==3.10.9
+
+fastapi==0.141.1
+uvicorn[standard]==0.46.0
+pydantic==2.13.3
+python-multipart
+
+# Notebook build/execution (notebooks/build_01_eda.py + nbconvert --execute)
+nbformat==5.11.1
+nbconvert==7.17.1
+ipykernel
+jupyter_client
+
+# Dev / test
+pytest==9.1.1
+tabulate==0.10.0
+
+#updated deployment

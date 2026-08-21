@@ -1,4 +1,4 @@
-# Data Quality Log â€” Project FORESIGHT
+# Data Quality Log — Project FORESIGHT
 Generated automatically by `src/pipeline.py` on every run. Every cleaning decision below is coded (see `src/pipeline.py`), not manual.
 
 ## validate

@@ -1,6 +1,6 @@
-# Model Performance â€” Project FORESIGHT (D3)
+# Model Performance — Project FORESIGHT (D3)
 
-Backtest: 10 rolling-origin folds, 6-week horizon, walk-forward (each fold trains only on data available at that fold's origin â€” no leakage across folds).
+Backtest: 10 rolling-origin folds, 6-week horizon, walk-forward (each fold trains only on data available at that fold's origin — no leakage across folds).
 
 | Metric | Model (LightGBM, tweedie) | Seasonal-naive baseline |
 |---|---|---|
@@ -10,7 +10,7 @@ Backtest: 10 rolling-origin folds, 6-week horizon, walk-forward (each fold train
 
 **Result: the model beats the seasonal-naive baseline** (a 23.5% WAPE improvement).
 
-**Shipped model: `lightgbm_tweedie`** â€” per the engagement's non-negotiable rule (brief Â§7.1), we ship whichever wins the honest backtest, not whichever looks more sophisticated.
+**Shipped model: `lightgbm_tweedie`** — per the engagement's non-negotiable rule (brief §7.1), we ship whichever wins the honest backtest, not whichever looks more sophisticated.
 
 ## Per-fold detail
 

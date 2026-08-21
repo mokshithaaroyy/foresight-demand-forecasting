@@ -1,17 +1,17 @@
-# Risk Scoring Summary â€” Project FORESIGHT (D4)
+# Risk Scoring Summary — Project FORESIGHT (D4)
 
-Scored 200 SKUs against the stockout-vs-overstock grid (brief Â§08, Figure 6).
+Scored 200 SKUs against the stockout-vs-overstock grid (brief §08, Figure 6).
 
 | Quadrant | SKUs | Recommended action |
 |---|---|---|
 | Reorder now | 5 | Raise a replenishment order before stock runs out. |
 | Markdown / clear | 44 | Promote or discount to free up capital. |
-| Watch / volatile | 0 | Investigate â€” demand is erratic; review manually. |
+| Watch / volatile | 0 | Investigate — demand is erratic; review manually. |
 | Healthy | 151 | No action needed; leave as is. |
 
 **Total sales at risk from stockouts, portfolio-wide expected value:** Rs 11,350,410
 
-_(This is a probability-weighted figure summed across all 200 SKUs â€” stockout_risk x demand-over-lead-time x price for every SKU, not just the ones flagged "Reorder now" below. A handful of very high-volume SKUs with even a moderate stockout probability can dominate this total; that is intentional â€” it is the same expected-value logic an insurer or a finance team would use, not a bug. The narrower figure â€” summed only over the 5 SKUs actually flagged "Reorder now" â€” is Rs 311,920.)_
+_(This is a probability-weighted figure summed across all 200 SKUs — stockout_risk x demand-over-lead-time x price for every SKU, not just the ones flagged "Reorder now" below. A handful of very high-volume SKUs with even a moderate stockout probability can dominate this total; that is intentional — it is the same expected-value logic an insurer or a finance team would use, not a bug. The narrower figure — summed only over the 5 SKUs actually flagged "Reorder now" — is Rs 311,920.)_
 
 **Total capital locked in excess stock (beyond healthy cover):** Rs 25,280,431
 
@@ -19,7 +19,7 @@ _(This is a probability-weighted figure summed across all 200 SKUs â€” stockout_
 
 **SKUs with low-confidence forecasts (under 12 weeks of history):** 2
 
-## Top 10 â€” Reorder now
+## Top 10 — Reorder now
 
 | sku_id   | category         |   stockout_risk |   sales_at_risk |   weeks_of_cover |
 |:---------|:-----------------|----------------:|----------------:|-----------------:|
@@ -29,7 +29,7 @@ _(This is a probability-weighted figure summed across all 200 SKUs â€” stockout_
 | SKU-0030 | Decor            |        0.787055 |         39855.8 |         0        |
 | SKU-0033 | Decor            |        0.77326  |         20380.7 |         0.732516 |
 
-## Top 10 â€” Markdown / clear
+## Top 10 — Markdown / clear
 
 | sku_id   | category         |   overstock_risk |   excess_capital_at_risk |   weeks_of_cover |
 |:---------|:-----------------|-----------------:|-------------------------:|-----------------:|
